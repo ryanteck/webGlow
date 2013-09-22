@@ -67,11 +67,11 @@ while True:
 	if(count >=17):
 		piglow.led(14,127)
 	if(count >=18):
-		piglow.all(255)
+		piglow.led(13,127)
 
 
 	xcount =  count+1
-	for x in range(xcount, 18):
+	for x in range(xcount, 19):
 		
 		#top leg
 		if(x ==1):
