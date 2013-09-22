@@ -25,7 +25,7 @@ while True:
 	active = data[0].split(":")
 	count = active[1]
 	count = int(count) -1;
-	print(count)
+	#print(count)
 	
 	if(count ==0):
 		piglow.all(0)
@@ -67,11 +67,12 @@ while True:
 	if(count >=17):
 		piglow.led(14,127)
 	if(count >=18):
-		piglow.led(13,127)
+		piglow.all(255)
 
 
-
-	for x in range(count, 18):
+	xcount =  count+1
+	for x in range(xcount, 18):
+		
 		#top leg
 		if(x ==1):
 			piglow.led(6,0)
