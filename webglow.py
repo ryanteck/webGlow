@@ -68,3 +68,5 @@ while True:
 		piglow.led(14,127)
 	if(count >=18):
 		piglow.led(13,127)
+	for x in range(count, 18):
+    		piglow.led(x,0)
