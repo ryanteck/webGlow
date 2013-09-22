@@ -82,34 +82,34 @@ while True:
 		if(x ==4):
 			piglow.led(3,0)
 		if(x ==5):
-			piglow.led(2,127)
+			piglow.led(2,0)
 		if(x ==6):
-			piglow.led(1,127)
+			piglow.led(1,0)
 		#bottom leg
 		if(x ==7):
-			piglow.led(12,127)
+			piglow.led(12,0)
 		if(x ==8):
-			piglow.led(11,127)
+			piglow.led(11,0)
 		if(x ==9):
-			piglow.led(10,127)
+			piglow.led(10,0)
 		if(x ==10):
-			piglow.led(9,127)
+			piglow.led(9,0)
 		if(x ==11):
-			piglow.led(8,127)
+			piglow.led(8,0)
 		if(x ==12):
-			piglow.led(7,127)
+			piglow.led(7,0)
 		#rightleg
 		if(x ==13):
-			piglow.led(18,127)
+			piglow.led(18,0)
 		if(x ==14):
-			piglow.led(17,127)
+			piglow.led(17,0)
 		if(x ==15):
-			piglow.led(16,127)
+			piglow.led(16,0)
 		if(x ==16):
-			piglow.led(15,127)
+			piglow.led(15,0)
 		if(x ==17):
-			piglow.led(14,127)
+			piglow.led(14,0)
 		if(x ==18):
-			piglow.led(13,127)
+			piglow.led(13,0)
 
 	
