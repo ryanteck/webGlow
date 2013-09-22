@@ -29,38 +29,18 @@ while True:
 	
 	if(count ==0):
 		piglow.all(0)
-	if(count ==1):
-		piglow.led(1,127)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-	if(count ==0):
-		piglow.all(0)
-
+	#top leg
+	if(count >=1):
+		piglow.led(6,127)
+	if(count >=2):
+		piglow.led(5,127)
+	if(count >=3):
+		piglow.led(4,127)
+	if(count >=4):
+		piglow.led(4,127)
+	if(count >=5):
+		piglow.led(4,127)
+	if(count >=6):
+		piglow.led(4,127)
+	#bottom leg
+	
