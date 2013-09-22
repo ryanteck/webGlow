@@ -43,4 +43,28 @@ while True:
 	if(count >=6):
 		piglow.led(1,127)
 	#bottom leg
-	
+	if(count >=7):
+		piglow.led(12,127)
+	if(count >=8):
+		piglow.led(11,127)
+	if(count >=9):
+		piglow.led(10,127)
+	if(count >=10):
+		piglow.led(9,127)
+	if(count >=11):
+		piglow.led(8,127)
+	if(count >=12):
+		piglow.led(7,127)
+	#rightleg
+	if(count >=13):
+		piglow.led(18,127)
+	if(count >=14):
+		piglow.led(17,127)
+	if(count >=15):
+		piglow.led(16,127)
+	if(count >=16):
+		piglow.led(15,127)
+	if(count >=17):
+		piglow.led(14,127)
+	if(count >=18):
+		piglow.led(13,127)

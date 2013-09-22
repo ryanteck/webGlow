@@ -37,10 +37,10 @@ while True:
 	if(count >=3):
 		piglow.led(4,127)
 	if(count >=4):
-		piglow.led(4,127)
+		piglow.led(3,127)
 	if(count >=5):
-		piglow.led(4,127)
+		piglow.led(2,127)
 	if(count >=6):
-		piglow.led(4,127)
+		piglow.led(1,127)
 	#bottom leg
 	
